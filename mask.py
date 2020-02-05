@@ -80,7 +80,7 @@ class MaskBot:
 
     @staticmethod
     def _telegram_message(remark, price, url, product_name):
-        return f'<b>有新貨🔥 {remark} ¥ {price}</b><a href=\'{url}\'>{product_name}</a>'
+        return f'<b>有新貨🔥 {remark} ¥ {price} {url}</b>'
 
     def _not_repeated_reported(self, code):
         return (code not in self.msg_record_time or
