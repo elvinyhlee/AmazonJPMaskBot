@@ -8,6 +8,8 @@ TODO: auto 入cart, auto pay
 TG_TOKEN=
 TG_CHAT_ID=
 CHROME_DRIVER_PATH=
+AMZ_EMAIL=
+AMZ_PW=
 ```
 
 ## To run the code

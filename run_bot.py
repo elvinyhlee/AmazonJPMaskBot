@@ -72,7 +72,7 @@ def divide_chunks(l, n):
 
 
 def run():
-    p = Pool(8)
+    p = Pool(4)
     p.map(run_bot, list(divide_chunks(targets, 5)))
 
 
