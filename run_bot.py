@@ -72,8 +72,8 @@ def divide_chunks(l, n):
 
 
 def run():
-    p = Pool(8)
-    p.map(run_bot, list(divide_chunks(targets, 5)))
+    p = Pool(5)
+    p.map(run_bot, list(divide_chunks(targets, 8)))
 
 
 if __name__ == '__main__':
