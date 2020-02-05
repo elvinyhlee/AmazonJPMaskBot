@@ -1,6 +1,11 @@
 from multiprocessing import Pool
+import os
 
 from mask import MaskBot
+
+
+email = os.getenv('AMZ_EMAIL')
+password = os.getenv('AMZ_PW')
 
 targets = [
     ('B07573632C', 'fitty 60 普通size'),
@@ -62,7 +67,8 @@ targets = [
 
 
 def run_bot(target_set):
-    bot = MaskBot(target_set)
+    bot = MaskBot(target_set, email, password)
+    bot.login()
     bot.repeated_scan()
 
 
