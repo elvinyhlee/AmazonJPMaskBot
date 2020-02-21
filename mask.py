@@ -51,7 +51,7 @@ class MaskBot:
                         send_text(msg)
 
                         # TODO (Elvin): add to cart
-                        self._add_to_cart(offer)
+                        # self._add_to_cart(offer)
 
                         print(f'有新貨🔥 {product_name} {remark} ¥ {price} {url}')  # logging
                         break

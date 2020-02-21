@@ -68,7 +68,7 @@ targets = [
 
 def run_bot(target_set):
     bot = MaskBot(target_set, email, password)
-    bot.login()
+    # bot.login()
     bot.repeated_scan()
 
 

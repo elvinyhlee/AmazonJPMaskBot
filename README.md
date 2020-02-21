@@ -1,7 +1,6 @@
 # 口罩Alert😷
 
 Support: Telegram notification
-TODO: auto 入cart, auto pay
 
 ## Environment Variables
 ```
